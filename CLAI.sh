@@ -18,7 +18,7 @@ esac
 done
 
 echo "Installing some Required Dependencies"
-brew install git node@16 postgresql@12
+sudo apt install git postgresql-12
 echo "#####################################################################################"
 echo "Getting Install Script"
 wget https://raw.githubusercontent.com/Luke-High-School/canvas-development-tools/master/CODES.sh
