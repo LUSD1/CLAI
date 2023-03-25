@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-figlet -kc DOWNLOAD.SH 
+figlet -ck DOWNLOAD.SH 
 echo "this script is going to download another script that will download canvas CODES.sh File"
 echo "#########################################################################################"
 
@@ -21,7 +21,8 @@ esac
 
 done
 
-brew install wget
+
+
 wget https://raw.githubusercontent.com/LUSD1/CLAI/master/CLAI.sh
 echo "Changing Permissions and running script"
 chmod +x CLAI.sh && ./CLAI.sh
